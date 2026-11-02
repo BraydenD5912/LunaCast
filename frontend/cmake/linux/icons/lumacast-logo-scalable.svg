@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0C14"/><stop offset="1" stop-color="#1E1240"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#B8A9FF"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.42" cy="0.52" r="0.5">
+      <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="crescentMask"><rect width="1024" height="1024" fill="black"/>
+      <circle cx="470" cy="530" r="340" fill="white"/>
+      <circle cx="610" cy="400" r="260" fill="black"/>
+    </mask>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="224" fill="url(#glow)"/>
+  <circle cx="470" cy="530" r="340" fill="url(#moon)" mask="url(#crescentMask)"/>
+  <path d="M575 405 L575 635 L772 520 Z" fill="#E9FAFF"/>
+  <g fill="none" stroke="#22D3EE" stroke-linecap="round">
+    <path d="M815 402 A130 130 0 0 1 825 633" stroke-width="16" opacity="0.8"/>
+    <path d="M838 352 A185 185 0 0 1 852 680" stroke-width="13" opacity="0.5"/>
+    <path d="M861 302 A240 240 0 0 1 880 728" stroke-width="10" opacity="0.28"/>
+  </g>
+  <rect x="16" y="16" width="992" height="992" rx="214" fill="none" stroke="#B8A9FF" stroke-opacity="0.14" stroke-width="4"/>
+</svg>

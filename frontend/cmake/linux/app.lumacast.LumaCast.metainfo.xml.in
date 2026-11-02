@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>app.lumacast.LumaCast</id>
+  <launchable type="desktop-id">app.lumacast.LumaCast.desktop</launchable>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  <name>LumaCast</name>
+  <developer id="app.lumacast">
+    <name>LumaCast Contributors</name>
+  </developer>
+  <summary>Live streaming and clip studio</summary>
+  <description>
+    <p>LumaCast is a live streaming and clipping studio built on libobs.</p>
+    <p>Features:</p>
+    <ul>
+      <li>High performance real time video/audio capturing and mixing with scenes, transitions, and a flexible canvas.</li>
+      <li>Inline audio processing with noise suppression, gain, and compression in the main mixer view.</li>
+      <li>Flexible hotkeys and macros for scene switching, streaming, recording, and clipping.</li>
+      <li>Stream without dropping the connection while pausing or resuming output.</li>
+      <li>An extensible plugin marketplace with automatic updates.</li>
+    </ul>
+  </description>
+  <url type="homepage">https://lumacast.example</url>
+  <url type="bugtracker">https://lumacast.example/support</url>
+
+  <recommends>
+    <internet>always</internet>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
+
+  <supports>
+    <internet>offline-only</internet>
+    <control>touch</control>
+  </supports>
+
+  <branding>
+    <color type="primary">#7c5cff</color>
+  </branding>
+
+  <content_rating type="oars-1.1"/>
+
+  <releases>
+    <release version="@OBS_VERSION@" date="@APPDATA_RELEASE_DATE@">
+      <url type="details">https://lumacast.example/releases/tag/@OBS_VERSION@</url>
+    </release>
+  </releases>
+</component>

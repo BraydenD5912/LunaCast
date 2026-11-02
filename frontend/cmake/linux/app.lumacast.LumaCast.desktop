@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=LumaCast
+GenericName=Live Streaming and Clip Studio
+Comment=Stream, record, and clip with a modern libobs-powered studio
+Exec=LumaCast
+Icon=app.lumacast.LumaCast
+Terminal=false
+Type=Application
+Categories=AudioVideo;Recorder;
+StartupNotify=true
+StartupWMClass=app.lumacast.LumaCast

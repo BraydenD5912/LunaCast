@@ -1,0 +1,50 @@
+/* ------------------------------------------------------------------------- *
+ *                                                                           *
+ *                                LUMACAST                                   *
+ *                                                                           *
+ * ------------------------------------------------------------------------- *
+ *                                                                           *
+ * LumaCast brand variant of the Yami base theme.
+ *
+ * Deep space navy surfaces with violet primary highlights and cyan accents.
+ *                                                                           *
+ * ------------------------------------------------------------------------- */
+
+@OBSThemeMeta {
+    name: 'LumaCast';
+    id: 'app.lumacast.theme';
+    extends: 'com.obsproject.Yami';
+    author: 'LumaCast Contributors';
+    dark: 'true';
+}
+
+@OBSThemeVars {
+    /* Violet primary scale */
+    --blue1: #A99BFF;
+    --blue2: #927EFF;
+    --blue3: #7C5CFF;
+    --blue4: #6847E0;
+    --blue5: #5236B8;
+    --blue6: #3C278C;
+
+    /* Cyan accent scale */
+    --teal1: #7DEBF9;
+    --teal2: #22D3EE;
+    --teal3: #12A9C4;
+    --teal4: #0D8AA2;
+    --teal5: #096A7D;
+    --teal6: #064B58;
+
+    /* Navy-tinted surfaces */
+    --grey1: #4A5070;
+    --grey2: #3E4460;
+    --grey3: #343953;
+    --grey4: #2B3047;
+    --grey5: #23273A;
+    --grey6: #1A1D2C;
+    --grey7: #13151F;
+    --grey8: #0B0C13;
+
+    --palette_link: var(--teal1);
+    --palette_linkVisited: var(--teal1);
+}

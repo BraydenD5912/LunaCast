@@ -27,11 +27,10 @@
 !CMakePresets.json
 !COC.rst
 !COMMITMENT
-!CONTRIBUTING.md
 !CODESTYLE.md
 !COPYING
 !INSTALL
-!README.rst
+!README.md
 
 # Exclude lock files
 *.lock.json
